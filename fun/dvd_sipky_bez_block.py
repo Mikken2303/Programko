@@ -1,3 +1,5 @@
+# window moc velke zobrat pouzitie sipok a dat do toho z local
+
 from tkinter import *
 main = Tk()
 canvas = Canvas()
