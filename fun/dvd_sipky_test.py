@@ -56,7 +56,10 @@ while True:
     if int(canvas.coords(oval)[1]) == 390 and int(canvas.coords(oval)[0]) > int(canvas.coords(plat)[0]) and int(canvas.coords(oval)[0]) < int(canvas.coords(plat)[2]):
         y = -y
 
-
+    if canvas.coords(plat)[0] > 500:
+        canvas.move(plat,-600,0)
+    if canvas.coords(plat)[2] < 0:
+        canvas.move(plat,600,0)
 
     if b1 and int(canvas.coords(oval)[1]) == 110 and int(canvas.coords(oval)[0]) > int(canvas.coords(block1)[0]) and int(canvas.coords(oval)[0]) < int(canvas.coords(block1)[2]):
             y = -y
@@ -99,6 +102,7 @@ while True:
         y = -y
         canvas.delete(block15)
         b15 = False
+
 
 
     if zivoty == 2:
