@@ -1,11 +1,19 @@
 from math import sqrt
+
+
 def prv(a):
 
     d = 2
-    while a%d != 0:
+    while a % d != 0 and d <= sqrt(a):
         d += 1
-    if d == a:
-        return True
-    else:
+    if a % d == 0:
         return False
-print(prv(int(input(': '))))
+    else:
+        return True
+
+
+i = 3
+while True:
+    if prv(i):
+        print(i)
+    i += 2
