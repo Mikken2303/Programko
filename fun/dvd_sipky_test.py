@@ -22,6 +22,7 @@ block13 = canvas.create_line(200,75,300,75,width="25")
 block14 = canvas.create_line(300,75,400,75,width="25")
 block15 = canvas.create_line(400,75,500,75,width="25")
 
+line = canvas.create_line(0,0,0,0)
 b1,b2,b3,b4,b5 = True,True,True,True,True
 b11,b12,b13,b14,b15 = True,True,True,True,True
 
@@ -45,8 +46,10 @@ while True:
     canvas.move(oval, x,y)
     canvas.after(1,)
     canvas.update()
+    canvas.delete(line)
+    #line = canvas.create_line(((canvas.coords(oval)[0] + canvas.coords(oval)[2]) / 2),((canvas.coords(oval)[1] + canvas.coords(oval)[3]) / 2),1000*x,1000*y)
 
-    if canvas.coords(oval)[0] > 500 or canvas.coords(oval)[0] < 0 :
+    if canvas.coords(oval)[0] > 500 or canvas.coords(oval)[0] < 0:
         x = -x
     if canvas.coords(oval)[1] > 500:
         y = -y
