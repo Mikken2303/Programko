@@ -54,7 +54,7 @@ while True:
 
 
 # to do points system
-    if canvas.coords(oval)[0] > 500 or canvas.coords(oval)[0] < 0:
+    if canvas.coords(oval)[0] > 500:
         vector_x = -vector_x
     if canvas.coords(oval)[0] < 0:
         vector_x = -vector_x
