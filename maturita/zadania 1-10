@@ -1,0 +1,34 @@
+1.	Dané sú 3 strany trojuholníka(a,b,c sú reálne čísla). Vytvorte program, ktorý vyhodnotí, či daný trojuholník
+môže existovať, a ak áno vypíše informáciu či je rovnostranný, rovnoramenný alebo rôznostranný.
+
+2.	Na vstupe je postupnosť známok, zakončená 0. Vytvorte program, ktorý vypočíta priemer známok, najhoršiu známku
+a potom vypíše jedno z hodnotení : vyznamenaný: priemer <=1,5, známka<=2, prospel veľmi dobre: priemer<=2,známka<=3,prospel :známka<5 a neprospel
+
+3.	Vytvorte program na zašifrovanie textu Cézarovou šifrou. Na vstupe je text a posun, o ktorý sa posunie písmeno
+v abecede. znaku v kľúči. V prípade, že posun je za posledné písmeno abecedy, posunie ho na prvé písmená v abecede (podľa daného posunu). Text je  bez diakritiky, šifrujú sa len písmená.
+
+4.	Na vstupe je rodné číslo v tvare xxxxxx/xxxx. Vytvorte program, ktorý vyhodnotí, či dané číslo je reálne(uvažujme,
+ že správne rodné číslo je deliteľné 11 bez zvyšku), vypíše či číslo patrí mužovi alebo žene a tiež vypíše datum narodenia
+
+
+5.	Na vstupe je matematický výraz. Vytvorte program, ktorý vyhodnotí, či sú správne použité zátvorky.
+
+6.	Vytvorte program na skúšanie malej násobilky. Program vygeneruje 10 úloh, na každú má skúšaný maximálne 3 pokusy.
+Ak úlohu vyrieši na 1.pokus dostane 3 body, ak na 2. pokus 2 body, na 3-tí 1 bod. Na záver sa vypíše hodnotenie.
+
+7.	Vytvorte program na modelovanie hodu kockou. Na vstupe je počet hodov, výstupom je počet hodov jednotlivých strán a
+tiež určenie , ktorá hodnota padla najviac krát
+
+
+8.	Vytvorte program, ktorý po zadaní dátumu vypíše počet dní do konca roka. V prípade, že bol zadaný dátum, ktorý
+neexistuje, vypíše upozornenenie.
+
+9.	Vytvorte program, ktorý zistí minimálny počet platidiel na vyplatenie miezd. Na vstupe je mzda zamestnanca a
+výstupom je počet jednotlivých platidiel.
+
+10.	 Vytvorte program na simuláciu číselnej lotérie. V lotérii sa žrebuje 6 čísel z čísel od 1 do 49.
+Vytvorte program, ktorý:
+-	na vstupe prečíta tipy na šesť čísel od používateľa.
+-	simuluje žrebovanie a vypíše 6 vyžrebovaných čísel
+-	porovná naše tipy so žrebovaním a zobrazí  počet uhádnutých čísel
+-	čísla sa ani vo vyžrebovaných ani tipovaných nemôžu opakovať
