@@ -30,19 +30,20 @@ def premiet(point,camera,focus,d):
 
     xpart1 = d* ((sqrt(sf1mc +sf2mc)) / f2mc)
     xpart2 = ( sf1mc +sf2mc +sf3mc)/ ((f1mc*c1mp) + (f2mc*c2mp) + (f3mc*c3mp) )
-    xpart3 = (  camera[0] - point[0] - ( (sf1mc*sf3mc*c3mp) / (sf1mc + sf2mc) )   )
-    xpart4 = -focus[0] + camera[0] + (  (sf1mc*sf3mc)/ (sf1mc +sf2mc) )
+    xpart3 = (  camera[0] - point[0] + ( (f1mc*f3mc*c3mp) / (sf1mc + sf2mc) )   )
+    xpart4 = -focus[0] + camera[0] - (  (f1mc*sf3mc)/ (sf1mc +sf2mc) )
+
     x = xpart1*((xpart2*xpart3) + xpart4)
 
     return [x,y]
 
 
-bod1 = [300,300,100]
-bod2 = [30,60,80]
+bod1 = [100,120,150]
+bod2 = [160,80,230]
 pb1 = premiet(bod1,camg,focg,zoom)
 pb2 = premiet(bod2,camg,focg,zoom)
 print(pb1,pb2)
-canvas.create_line(pb1[0]+100,pb1[1]+100,pb1[0]+100,pb1[1]+100)
+canvas.create_line(int(pb1[0]),int(pb1[1]),int(pb2[0]),int(pb2[1]))
 
 
 

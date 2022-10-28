@@ -1,7 +1,6 @@
 
-list = []
-ip = True
-pocitadlo = float(0)
+ip = 1
+pocitadlo = 0
 max = 0
 counter = 0
 
