@@ -1,0 +1,47 @@
+#include <iostream>
+
+int main(){
+    int a;
+    int b;
+    int c;
+
+    std::cout << "a:" << std::endl;
+    std::cin >> a;
+
+    std::cout << "b:" << std::endl;
+    std::cin >> b;
+
+    std::cout << "c:" << std::endl;
+    std::cin >> c;
+
+    int ab = a + b;
+    int ac = a + c;
+    int bc = b + c;
+
+    int sa = a * a;
+    int sb = b * b;
+    int sc = c * c;
+
+    int sab = sa + sb;
+    int sac = sa + sc;
+    int sbc = sb + sc;
+
+    if (ab > c && ac > b && bc > a){
+
+        std::cout << "existuje" << std::endl;
+
+        if (a == b && b == c){
+            std::cout << "rovnostranny" << std::endl;
+        }
+        else if (a == b || a == c || b == c){
+            std::cout << "rovnoramen" << std::endl;
+        }
+        if (sab == sc || sac == sb || sbc == sa){
+            std::cout << "pravouhly" << std::endl;
+        }
+
+    }
+    else{
+        std::cout << "neexistuje" << std::endl;
+    }
+}
