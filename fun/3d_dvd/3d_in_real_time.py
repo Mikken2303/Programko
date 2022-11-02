@@ -7,7 +7,8 @@ canvas_height = 800
 canvas = Canvas(width=canvas_width, height=canvas_height, bg='white')
 canvas.pack()
 
-camg = [150,150,150]
+global camg
+camg = [150,-100,150]
 focg = [50,50,50]
 zoom = 1
 
@@ -48,7 +49,39 @@ def cube(center, side):
 
 kocka=cube([50,50,50],100)
 
-for i in kocka:
-    zobrazusecku(i, camg, focg, zoom)
+
+def left(sur):
+    camg[0] += 10
+    print(sur)
+
+def right(sur):
+   camg[0] += -10
+   print(sur)
+
+
+def up(sur):
+    camg[1] += -10
+    print(sur)
+
+def down(sur):
+    camg[1] += 10
+    print(sur)
+
+
+
+while True:
+    main.bind("<Left>", left)
+    main.bind("<Right>", right)
+    main.bind("<Up>", up)
+    main.bind("<Down>", down)
+
+    for i in kocka:
+        zobrazusecku(i, camg, focg, zoom)
+    canvas.create_polygon(0, 0, 800, 800, fill="white")
+
+    canvas.after(1,)
+    canvas.update()
+
+
 
 mainloop()
