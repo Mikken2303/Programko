@@ -1,0 +1,25 @@
+#include <iostream>
+int ip = 1;
+int pocitadlo = 0;
+int max = 0;
+int counter = 0;
+
+int main(){
+    while ( ip != 0){
+        counter ++ ;
+        std::cout << "daj znamku:" << std::endl;
+        std::cin >> ip;
+        pocitadlo += ip;
+        if(ip > max){
+            max = ip;
+        }
+    }
+    float cmin = counter - 1;
+    float avr = pocitadlo / cmin;
+
+    std::cout << "max: " << std::endl;
+    std::cout << max << std::endl;
+    std::cout << "avg" << std::endl;
+    std::cout << avr << std::endl;
+
+}
