@@ -1,4 +1,4 @@
-text = "CEASER CIPHER DEMO"
+text = "CEASER"
 s = 4
 result = ""
 for i in range(len(text)):

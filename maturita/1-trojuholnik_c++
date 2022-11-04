@@ -14,20 +14,7 @@ int main(){
     std::cout << "c:" << std::endl;
     std::cin >> c;
 
-    int ab = a + b;
-    int ac = a + c;
-    int bc = b + c;
-
-    int sa = a * a;
-    int sb = b * b;
-    int sc = c * c;
-
-    int sab = sa + sb;
-    int sac = sa + sc;
-    int sbc = sb + sc;
-
-    if (ab > c && ac > b && bc > a){
-
+    if (a + b > c && a + c > b && b + c > a){
         std::cout << "existuje" << std::endl;
 
         if (a == b && b == c){
@@ -36,10 +23,9 @@ int main(){
         else if (a == b || a == c || b == c){
             std::cout << "rovnoramen" << std::endl;
         }
-        if (sab == sc || sac == sb || sbc == sa){
+        if (a*a + b*b == c*c || b*b + c*c == a*a || c*c + a*a == b*b){
             std::cout << "pravouhly" << std::endl;
         }
-
     }
     else{
         std::cout << "neexistuje" << std::endl;
