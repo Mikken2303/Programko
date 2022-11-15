@@ -1,4 +1,3 @@
-
 ip = 1
 pocitadlo = 0
 max = 0
