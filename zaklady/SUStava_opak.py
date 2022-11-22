@@ -1,16 +1,21 @@
-ip = "732"
-sus = 8
+ip = "732G"
+sus = 16
 out = 0
 c = 0
+l = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"]
 ## over ci su cisla dobre
+k = True
 for i in ip:
-    if int(i) >= sus:
+    if i in l[:sus]:
+        pass
+    else:
         print("zle cislice musia byt menej ako SUStava")
-########
-for i in ip[::-1]:
-    out += int(i)*(sus**c)
-    c += 1
+        k = False
 
+if k:
+    for i in ip[::-1]:
+        out += l.index(i)*(sus**c)
+        c += 1
+        print(int(ip, sus))
+        print(out)
 
-print(int(ip,sus))
-print(out)
