@@ -1,0 +1,37 @@
+1. Popíšte spôsob prevodu čísla  z ľubovoľnej sústavy do 10 sústavy a vytvorte program, ktorý
+tento prevod vykoná. Ako by ste ošetrili korektnosť zadávaného čísla? (základ sústavy uvažujme od 2-16)
+vysvetlite aj prevod opačným smerom, čiže z 10-ej sústavy do ľubovoľnej.
+
+2. Popíšte spôsob prevodu čísla  z 10 –ej sústavy do ľubovoľnej. (základ sústavy uvažujme od 2-16)
+vysvetlite aj prevod opačným smerom, čiže z ľubovoľnej sústavy do 10-ej.
+
+3. Na vstupe je počet žiakov triede a veľkosť skupín, ktoré treba vytvoriť. Využitím znalostí
+z kombinatoriky vytvorte program, ktorý vypíše počet možností.
+
+4. Textový súbor skladby.txt obsahuje zoznam skladieb a časov ich trvania v tvare: p.čislo.skladba
+medzera minúty:sekundy. Vytvorte program na zistenie doby , za ktorú sa prehrajú všetky skladby.
+
+5.Načitajte textový súbor pracdoba.txt.  Súbor obsahuje informácie: meno medzera hodina príchodu:minúta
+príchodu medzera hodina odchodu:minúta odchodu. Vypočítajte dĺžku pracovnej doby a  na monitor ju  vypíšte spolu s menami.
+
+6. V škole sa uskutočnila súťaž v behu. Výsledky sú zaznamenané v textovom súbore sutaz_vbehu.txt. V každom riadku
+ je uvedené priezvisko športovca (jednoslovné) a jeho nameraný čas v sekundách.
+Vytvorte program, ktorý usporiada výsledkovú listinu podľa dosiahnutého času a vypíše ju na monitor.
+
+7. Otvorte subor sutaz_vbehu.txt. V každom riadku je uvedené priezvisko športovca (jednoslovné) a jeho nameraný čas v sekundách.
+Vytvorte program, ktorý:
+	vypíše počet športovcov
+	vypíše meno najlepšieho súťažiaceho, (môžete predpokladať, že bude iba jeden), k menu víťaza dopíše jeho čas v tvare podľa ukážky: „3 min. 53 sek.".
+
+8. Karol zabudol 4- miestny PIN kód svojho telefónu. Pamätal si, že na 1.mieste bolo párne číslo,
+na druhom bolo číslo42, na treťom bolo nepárne číslo  a na štvrtom bolo číslo:=7. Do súboru kody.txt vypíšte všetky možné PIN kódy. Koľko je vyhovujúcich kódov?
+
+9. Vytvorte program, ktorý nám analyzuje vstupný text zo súboru s názvom tabulka_pocetnosti.txt a spraví frekvenčnú analýzu znakov nasledovne:
+	vypíše jednotlivé počty znakov anglickej abecedy v tvare znak – počet_výskytov
+	malé a veľké písmená nerozlišuje, ostatné znaky ignoruje
+
+	ako by ste program rozšírili o zistenie najčastejšieho sa vyskytujúceho sa písmena
+10. Vytvorte program, ktorý vyhodnotí dlžku textového súboru diplomovka.txt a vypíše počet riadkov, znakov a slov v súbore.
+Vložte obsah súboru do aplikácie MS-Word a porovnajte vaše výsledky s výsledkami, ktoré vyhodnotí aplikácia.
+
+
