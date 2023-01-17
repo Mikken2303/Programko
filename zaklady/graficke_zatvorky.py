@@ -1,7 +1,7 @@
 from tkinter import *
 canvas = Canvas(width=750, height=500,bg="white")
 canvas.pack()
-vyr = "4x((38+3x)+84).(14-5x)(16+3y)(-8-3x)"
+vyr = "4x((38+(34-5y)3x)+84).(14-5x)(16+3y)(-8-3x)"
 c = 0
 good = True
 for i in vyr:
@@ -23,9 +23,8 @@ for i in vyr:
         canvas.create_text(x, y,text=i,fill=farby[k])
         k += 1
     elif i == ")":
-        canvas.create_text(x, y,text=i,fill=farby[k])
         k += -1
-
+        canvas.create_text(x, y,text=i,fill=farby[k])
     else:
         canvas.create_text(x, y,text=i)
 
