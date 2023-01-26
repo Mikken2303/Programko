@@ -25,6 +25,7 @@ canvas.bind_all("<Left>", lv)
 canvas.bind_all("<Right>", pv)
 
 while True:
+    bad.append(p)
     canvas.create_oval(p[0]-1,p[1]-1,p[0]+1,p[1]+1)
     canvas.move(hlv,v[0],v[1])
     p[0] += v[0]
@@ -34,6 +35,6 @@ while True:
     if p in bad:
         print("havaria")
         break
-    #bad.append(p)
+
     print("c")
 canvas.mainloop()
