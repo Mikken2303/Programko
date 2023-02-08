@@ -1,0 +1,44 @@
+
+
+
+1. Medzinárodná svetová športová organizácia vyhlásila celosvetové preteky v skoku do diaľky amatérov.
+Každý súťažiaci mal päť pokusov. Vyhral súťažiaci, ktorý skočil najďalej v rámci svojich piatich pokusov.
+ Športové výsledky všetkých zúčastnených sa spojili do jediného textového súboru skok_do_dialky.txt.
+  Každý riadok súboru skok_do_dialky.txt mal nasledujúci formát: Meno vykon1 vykon2 vykon3 vykon4 vykon5
+pričom meno je jednoslovné (neobsahuje medzery) a výkony sú celé čísla (sú od seba oddelené medzerou).
+-Vytvorte program, ktorý vypíše meno celkového víťaza – kto skočil najďalej. Ak ich bolo viac, vypíše všetkých.
+
+2. Čiarový kód obsahuje osemciferné čísla, ktoré nezačínajú a nekončia nulou
+ Vytvorte program na vygenerovanie náhodného čiarového kódu.
+ Každá číslica je znázornená čiarou, ktorej hrúbka je rovná hodnote číslice (napr. číslica 4 bude zobrazená čiarou s hrúbkou 4).
+ Tiež vypíšte aj samotný číselný kód.
+
+3. Kamaráti mali dlhú chvíľu a chceli si skrátiť hrou. Keďže nemali papier ani pero, rozhodli sa, že si pomôžu počítačom.
+Vytvorte program, ktorý vykreslí sieť na hru piškvorky a pomocou ľavého tlačítka myši sa striedavo budu vkladať symboly kruh a krížik
+
+
+4. Vytvorte program, ktorý  simuluje reklamný  panel, ktorý je jednoriadkový.  Zadaný text  na displeji roluje sprava doľava, keď nejaká časť textu odíde z ľavej strany displeja objaví sa na pravej strane.
+
+5. Nakreslite vlajku Slovenskej republiky. Zistite na internete pomer strán, ktorý dodržte. Na vloženie znaku použite súbor slovenskyznak.png, ktorý upravte podľa potreby.
+
+6. V súbore je komprimovany_obrazok_1.txt zapísaný čiernobiely obrázok . V prvom riadku súboru sú rozmery obrázka - prvé číslo predstavuje šírku obrázka (počet pixelov v riadku) a druhé číslo predstavuje jeho výšku (počet pixelov v stĺpci). Každý riadok obrázka je zapísaný v samostatnom riadku textového súboru. Prvé číslo v riadku vyjadruje počet čiernych bodov vedľa seba v riadku obrázka. Ďalšie číslo vyjadruje počet bielych bodov vedľa seba v
+riadku obrázka. Takto sa striedajú čísla vyjadrujúce počet bielych a čiernych bodov v jednom riadku obrázka. Čísla sú oddelené jednou medzerou.
+Vytvorte program, ktorý vykreslí takto zapísaný obrázok, jeden pixel nakreslí obdĺžnikom veľkosti 1x1 pixel.
+
+
+7. V súbore ciernobiely_obrazok_1.txt je zapísaný čiernobiely obrázok V prvom riadku súboru sú rozmery obrázka - prvé číslo predstavuje šírku obrázka (počet pixelov v riadku) a druhé číslo predstavuje jeho výšku(počet pixelov v stĺpci). Každý riadok obrázka je zapísaný v samostatnom riadku textového súboru. V riadku obrázka sú uložené farby pixelov(odtieň sivej farby). Farba jedného pixela je zapísaná dvojciferným číslom v šestnástkovej sústave, čiže čísla od 00 do ff. Farba vyjadruje odtieň sivej farby (len si pripomeňme, že všetky odtiene sivej farby majú rovnakú hodnotu červenej, zelenej a modrej farby v modeli RGB). Čísla reprezentujúce pixely nie sú v riadku ničím oddelené (nasledujú tesne za sebou). Vytvorte program, ktorý podľa údajov v súbore vykreslí do grafickej plochy celý obrázok, pričom program nezaťažuje pamäť a všetky údaje číta a vykresľuje priamo zo súboru.
+
+
+8. Vytvorte program, ktorý simuluje dráhy loptičky odrážajúcej sa od stien. Vstupom programu bude pozícia loptičky a tiež zmeny v jednotlivých smeroch.
+
+9. Naprogramujte hru „Háďa“.
+Hlavička háďaťa je veľkosti jeden bod. Háďa sa neustále pohybuje určeným smerom a za sebou zanecháva čiaru. Na začiatku má nastavený smer na sever.
+Smer pohybu háďaťa meníme pomocou klávesnice (resp. tlačidiel) v štyroch základných smeroch(hore, dole, vpravo, vľavo).
+Hra končí, ak narazí do steny.
+Ako by ste vylepšili program o možnosť ukončiť hru narazením samého do seba (resp. do čiary, ktorú zanechal).
+
+10. Vytvorte program, ktorý simulujte semafór. Jednotlive svetlá sa podľa nastaveného časového intervalu striedajú.
+
+
++ dokončenie matematického výrayu so zátvorkami....
+
