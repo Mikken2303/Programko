@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+
+int platidla[8] = {500, 100, 50, 20, 10, 5, 2, 1};
+int inp;
+
+int main() {
+    std::cout << "input" << std::endl;
+    std::cin >> inp;
+
+    for (int i = 0; i < sizeof(platidla)/sizeof(platidla[0]); i++) {
+        double out = inp / platidla[i];
+
+        std::cout << platidla[i]<< ':' << floor(out) << std::endl;
+        inp = inp % platidla[i];
+    }
+}
