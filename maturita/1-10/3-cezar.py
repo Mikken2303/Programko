@@ -8,6 +8,3 @@ for i in range(len(text)):
     else:
         result += chr((ord(char) + s - 97) % 26 + 97)
 print(result)
-
-
-
