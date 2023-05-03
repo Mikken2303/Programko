@@ -3,7 +3,6 @@ sus = 16
 out = 0
 c = 0
 l = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"]
-## over ci su cisla dobre
 k = True
 for i in ip:
     if i in l[:sus]:
