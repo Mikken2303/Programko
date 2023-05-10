@@ -1,5 +1,5 @@
 from tkinter import *
-file = open("komprimovany_obrazok_1.txt","r")
+file = open("komprimovany_obrazok_2.txt","r")
 line = file.readline()
 w, h = line.split()
 w = int(w)
