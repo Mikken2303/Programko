@@ -1,4 +1,4 @@
-inp = 3
+inp =709
 fact = []
 primes = []
 c = 2
