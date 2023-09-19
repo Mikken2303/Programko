@@ -12,6 +12,7 @@ camg = [150,-100,150]
 focg = [50,50,50]
 zoom = 1
 
+
 def premiet(point,camera,focus,d):
     f1mc = focus[0] - camera[0]
     f2mc = focus[1] - camera[1]
@@ -75,9 +76,12 @@ while True:
     main.bind("<Up>", up)
     main.bind("<Down>", down)
 
+
+    canvas.create_rectangle(0, 0, 800, 800, fill="white")
+
     for i in kocka:
         zobrazusecku(i, camg, focg, zoom)
-    canvas.create_polygon(0, 0, 800, 800, fill="white")
+
 
     canvas.after(1,)
     canvas.update()
