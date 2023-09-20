@@ -25,6 +25,17 @@ def premiet(point,camera,focus,d):
     sf2mc = f2mc**2
     sf3mc = f3mc**2
 
+
+    if (sf1mc + sf2mc) == 0:
+        sf2mc += 1
+
+    if ((f1mc*c1mp) + (f2mc*c2mp) + (f3mc*c3mp)) == 0:
+        c3mp += 1
+
+    if f2mc == 0:
+        f2mc += 1
+
+
     ypart1 = ( sqrt( (sf1mc*sf3mc) + (sf2mc*sf3mc) + ((sf1mc + sf2mc)**2) ) )/(sf1mc + sf2mc)
     ypart2 = ( ( c3mp*(sf1mc + sf2mc + sf3mc ) ) / ( (f1mc*c1mp) + (f2mc*c2mp) + (f3mc*c3mp) ) ) + camera[2] - focus[2]
 
@@ -75,7 +86,7 @@ while True:
     main.bind("<Right>", right)
     main.bind("<Up>", up)
     main.bind("<Down>", down)
-
+    camg[1] += 1
 
     canvas.create_rectangle(0, 0, 800, 800, fill="white")
 

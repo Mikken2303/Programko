@@ -29,16 +29,16 @@ b11,b12,b13,b14,b15 = True,True,True,True,True
 
 def lavo(sur):
    canvas.move(plat,-25,0)
-   print(sur)
+   sur = 0
 def pravo(sur):
    canvas.move(plat,25,0)
-   print(sur)
+   sur = 0
 
 zivoty = 3
 ziv1 = canvas.create_oval(10,10,20,20, fill="red")
 ziv2 = canvas.create_oval(25,10,35,20, fill="red")
 ziv3 = canvas.create_oval(40,10,50,20, fill="red")
-print(int(canvas.coords(plat)[2]))
+
 while True:
 
     root.bind("<Left>", lavo)
